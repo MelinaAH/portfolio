@@ -1,0 +1,139 @@
+.contact {
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    width: 100%;
+}
+
+.title {
+    position: relative;
+    font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: bold;
+    color: rgb(0, 165, 168);
+}
+
+.title:after {
+    display: block;
+    content: '';
+    width: 5%;
+    height: 2px;
+    background: rgb(255, 94, 35);
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.body-text {
+    display: block;
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(62, 62, 62);
+}
+
+.body-text .icons {
+    color: rgb(0, 165, 168);
+    font-size: 2em;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.body-text .icons:hover {
+    color: rgb(255, 94, 35);;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px;
+    font-family: 'Roboto';
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 400;
+    color: rgb(62, 62, 62);
+}
+
+a:hover {
+    color: rgb(255, 94, 35);
+}
+
+.contact-form {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 400;
+    color: rgb(62, 62, 62);
+}
+
+.contact-form .send-button {
+    background-color: rgb(0, 165, 168);
+    color: rgb(254, 254, 254);
+    font-size: 1em;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    padding: 7px 17px;
+    margin-bottom: 15px;
+}
+
+.contact-form .send-button:hover {
+    background-color: rgb(255, 94, 35);
+}
+
+input, textarea {
+    width: 35%;
+    height: 100%;
+    resize: both;
+    border: 1px solid rgb(62, 62, 62);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+
+span {
+    display: none;
+    text-align: left;
+}
+
+.visible {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+      display: block;
+      position: absolute;
+      top: 180px;
+      left: 50px;
+      width: 100vh;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .contact {
+      display: block;
+      position: absolute;
+      top: 180px;
+      left: 50px;
+      width: 100vh;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .contact {
+      display: block;
+      position: absolute;
+      top: 180px;
+      left: 140px;
+      width: 100vh;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .contact {
+      display: block;
+      position: absolute;
+      top: 220px;
+      left: 180px;
+      width: 100vh;
+    }
+  }

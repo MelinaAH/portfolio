@@ -1,0 +1,78 @@
+.aboutme-information {
+  display: block;
+  position: absolute;
+  top: 220px;
+  left: 180px;
+  width: 80%;
+  font-family: 'Quicksand';
+}
+
+.title {
+  position: relative;
+  font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+  color: rgb(0, 165, 168);
+}
+
+.title:after {
+  display: block;
+  content: '';
+  width: 5%;
+  height: 2px;
+  background: rgb(255, 94, 35);
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+}
+
+.body-text {
+  display: block;
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(62, 62, 62);
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme-information {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutme-information {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutme-information {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 140px;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .aboutme-information {
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 180px;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1600px) {}

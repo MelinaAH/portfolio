@@ -1,0 +1,144 @@
+ .home {
+   display: block;
+   position: absolute;
+   top: 220px;
+   left: 180px;
+   width: 50%;
+   font-family: 'Quicksand';
+ }
+
+ .home-content {
+   display: block;
+   position: relative;
+   top: 0;
+   left: 0;
+   font-family: 'Quicksand';
+ }
+
+ .name {
+   font-size: calc(20px + (25 - 20) * ((100vw - 300px) / (1600 - 300)));
+   font-weight: bold;
+   text-transform: uppercase;
+   color: rgb(0, 165, 168);
+ }
+
+ h1 {
+   color: rgb(255, 94, 35);
+   font-size: calc(40px + (81 - 40) * ((100vw - 300px) / (1600 - 300)));
+ }
+
+ .header-light {
+   font-weight: 100;
+   margin-top: -3%;
+ }
+
+ .header-bold {
+   font-weight: 900;
+   margin-top: -7%;
+   margin-bottom: -3%;
+ }
+
+ .body-text {
+   font-family: 'Roboto';
+   font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1600 - 300)));
+   font-weight: 500;
+   line-height: 1.5;
+   color: rgb(62, 62, 62);
+ }
+
+ @media only screen and (max-width: 600px) {
+  .home {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    width: 95%;
+  } 
+
+  .header-light {
+    font-weight: 100;
+    margin-top: -4%;
+  }
+  
+  .header-bold {
+     font-weight: 900;
+     margin-top: -7%;
+     margin-bottom: -7%;
+   }
+
+   .body-text {
+     min-width: 75%;
+   }
+
+   .background-image {
+     background-position: bottom;
+   }
+ }
+
+ @media only screen and (min-width: 600px) {
+  .home {
+    display: block;
+    position: absolute;
+    top: 220px;
+    left: 130px;
+    width: 80%;
+  }
+
+  .header-light {
+    font-weight: 100;
+    margin-top: -4%;
+  }
+  
+  .header-bold {
+     font-weight: 900;
+     margin-top: -7%;
+     margin-bottom: -5%;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+  .home {
+    width: 65%;
+  }
+
+  .header-light {
+    font-weight: 100;
+    margin-top: -4%;
+  }
+  
+  .header-bold {
+     font-weight: 900;
+     margin-top: -8%;
+     margin-bottom: -4%;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-light {
+    font-weight: 100;
+    margin-top: -3%;
+  }
+
+  .header-bold {
+    font-weight: 900;
+    margin-top: -7%;
+    margin-bottom: -2%;
+  }
+}
+
+@media only screen and (min-width: 1299px) {
+  .home {
+    width: 50%;
+  }
+
+  .header-light {
+    font-weight: 100;
+    margin-top: -4%;
+  }
+
+  .header-bold {
+    font-weight: 900;
+    margin-top: -8%;
+    margin-bottom: -2%;
+  }
+}
