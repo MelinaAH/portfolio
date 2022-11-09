@@ -62,7 +62,7 @@ const Contact = () => {
                         Melina Aalto-Halme <br></br>
                         Tampere<br></br>
                         Tel. +358 40 595 6880<br></br>
-                        <Link href='https://fi.linkedin.com/in/melina-aalto-22939886?trk=public_profile_samename-profile' target='_blank'>
+                        <Link href='https://www.linkedin.com/in/melina-aalto-halme' target='_blank'>
                             <LinkedInIcon className='icons' />
                         </Link>
                         <Link href='https://github.com/MelinaAH/portfolio.git' target='_blank'>
