@@ -9,7 +9,7 @@ const Aboutme = () => {
                 <h1 className='title'>About Me</h1>
                 <p className='body-text'>
                     Hi there, I'm Melina Aalto-Halme. A tech enthusiast with a passion 
-                    for both front-end web development and UI/UX design. I embarked on 
+                    for both front-end web development and UX design. I embarked on 
                     my journey into the world of computing sciences at 
                     Tampere University in 2020.
                     <br></br>
