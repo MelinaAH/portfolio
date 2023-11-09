@@ -40,7 +40,7 @@
 
  .body-text {
    font-family: 'Roboto';
-   font-size: calc(16px + (22 - 16) * ((100vw - 300px) / (1600 - 300)));
+   font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
    font-weight: 500;
    line-height: 1.5;
    color: rgb(62, 62, 62);

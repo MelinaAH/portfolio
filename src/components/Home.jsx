@@ -11,9 +11,13 @@ const Home = () => {
                     <h1 className='header-light'>graphic designer</h1>
                     <h1 className='header-bold'>UI/UX student</h1>
                     <p className='body-text'>
-                        I'm a computing sciences student from Tampere. In my studies,
-                        I have focused on front-end web development and UI/UX design.
-                        I'd love to work as a junior front-end web developer.
+                        I'm a computing sciences student from Tampere, 
+                        currently pursuing my Master's degree in 
+                        Human-Technology Interaction. Throughout my 
+                        academic journey, I've developed a keen interest in 
+                        front-end web development and UI/UX design. 
+                        I'm passionate about both fields and aspire to work 
+                        as a junior UX designer and front-end web developer.
                         <br></br>
                         <br></br>
                         My background as a graphic designer specializing
