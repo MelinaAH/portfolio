@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# UI Design / Personal Portfolio Website
 ![An image of the Home page](src/pics/home_portfolio.png)
 
 
