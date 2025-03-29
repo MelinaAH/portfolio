@@ -3,7 +3,9 @@
 
 
 ## Project Description
-As part of the Creating Graphical User Interfaces course at Tampere University, I developed a personal portfolio website. This project showcases my skills in web development and graphic design, featuring a collection of my work from my previous career as a graphic designer. Note that this portfolio focuses exclusively on graphic design work and does not include any UX projects.
+As part of the Creating Graphical User Interfaces course at Tampere University, I developed a personal portfolio website. This project showcases my skills in web development and graphic design, featuring a collection of my work from my previous career as a graphic designer. Note that this portfolio focuses exclusively on graphic design work and does not include any UX/UI projects.
+
+The purpose of the course was to learn how to create graphical user interfaces. This project allowed me to apply the skills learned in the course to develop a portfolio website.
 
 ## Further Development
 While the portfolio demonstrates my skills, there are areas for improvement:
